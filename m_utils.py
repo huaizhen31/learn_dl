@@ -39,7 +39,7 @@ def one_hot_label(label):
     return lab
 
 
-def load_mnist(x_train_path, y_train_path, x_test_path, y_test_path, is_img=False, normalize=True, one_hot=True):
+def load_mnist(x_train_path, y_train_path, x_test_path, y_test_path, normalize=True, one_hot=True):
     '''读入MNIST数据集
     Parameters
     ----------
